@@ -76,14 +76,19 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
 
 <img src="https://imgur.com/XxHdogw.png" alt="lab 7"/>
 
-
 ---
 
 ### Step 3: Create an "ACCOUNTANTS" Security Group, Assign Permissions, and Test Access
 1. **Log into DC-1** as the domain admin account (`mydomain.com\jane_admin`).
 2. Open Active Directory and create a security group named `ACCOUNTANTS`.
 
-![image](https://github.com/user-attachments/assets/26c7574d-fead-4c69-b2f4-368372301efc)
+<img src="https://imgur.com/PEmPLUS.png" alt="lab 7"/>
+
+<img src="https://imgur.com/2d4kloM.png" alt="lab 7"/>
+
+<img src="https://imgur.com/MZSXXOb.png" alt="lab 7"/>
+
+<img src="https://imgur.com/SfI3Tcq.png" alt="lab 7"/>
 
 3. Set permissions for the `accounting` folder:
    - **Folder:** `accounting`  
@@ -91,27 +96,26 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
      **Permission:** `Read/Write`  
      *(Share the folder with these settings.)*
 
-![image](https://github.com/user-attachments/assets/6695bf2d-045f-402e-8490-45332304292b)
+<img src="https://imgur.com/pbs7yYM.png" alt="lab 7"/>
 
 4. Test access as the normal user:
    - On Client-1, while logged in as `<qaki.hof>` (or other user), try to access the `accounting` share via `\\dc-1`.  
      - **Expected Result:** Access to the folder should fail.
 
-![image](https://github.com/user-attachments/assets/411aed0b-03d6-4046-8e2b-5a9d61783b84)
+<img src="https://imgur.com/AapVtsS.png" alt="lab 7"/>
 
 5. Assign `<qaki.hof>` (or other user) to the `ACCOUNTANTS` group:
    - On DC-1, add `<qaki.hof>` (or other user) as a member of the `ACCOUNTANTS` security group.
    - **Sidenote:** You can add entire groups to other groups as well. If we wanted to give access to all of the domain users we would assign 'Domain Users' to the 'ACCOUNTANTS' group instead of qaki.hof. 
 
-![image](https://github.com/user-attachments/assets/0935824a-4032-42ea-83d9-f9dd11171dcb)
+<img src="https://imgur.com/oofmO3G" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/abfed4d2-f759-40c1-8171-1df8e952814d)
 
 6. Re-test access as `<qaki.hof>`:
    - **Log out of Client-1** and log back in as `<qaki.hof>`.
    - Try to access the `accounting` share via `\\dc-1`.
      - **Expected Result:** Access to the folder should now succeed.
-![image](https://github.com/user-attachments/assets/2b41e545-d81f-4ec1-838d-680877c7bb86)
+<img src="https://imgur.com/dxrhBJi.png" alt="lab 7"/>
 ---
 
 ## Conclusion
