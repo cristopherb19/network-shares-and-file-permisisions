@@ -10,7 +10,7 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
 ### Prerequisites
 1. Access to the DC-1 VM as a domain administrator account (`mydomain.com\jane_admin`).
 2. Access to the Client-1 VM as a normal domain user (`mydomain\<someuser>`).
-3. Previous setup of an Active Directory environment with DC-1 and Client-1.
+3. Previous setup of an Active Directory environment with DC-1 and Client-1. Refer to <a href="https://github.com/cristopherb19/active-directory-setup">this guide.</a></h1> 
 
 ---
 
