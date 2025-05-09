@@ -47,14 +47,14 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
      **Permission:** `Read/Write`  
      *(Share the folder with these settings.)*
 
-![image](https://github.com/user-attachments/assets/1a4526c9-5257-4b03-8117-fb15b565c5cf)
+<img src="https://imgur.com/j9uZ22v.png" alt="lab 7"/>
 
    - **Folder:** `no-access`  
      **Group:** `Domain Admins`  
      **Permission:** `Read/Write`  
      *(Share the folder with these settings.)*
 
-![image](https://github.com/user-attachments/assets/04e31115-aaaa-40d5-849a-6b7489f6b922)
+<img src="https://imgur.com/cP3aqHW.png" alt="lab 7"/>
 
    - **Folder:** `accounting`  
      *(Do not configure permissions yet; skip this for now.)*
@@ -70,13 +70,12 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
    - Which folders can you access? 
    - Which folders can you create files in?
 
-![image](https://github.com/user-attachments/assets/d1ced96e-4c81-4551-9755-b38fe1cdb609)
+<img src="https://imgur.com/9TX5JQS.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/eac4cc38-8519-49ce-b29c-2428514c0843)
+<img src="https://imgur.com/eyjUoXs.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/ad87e709-492b-414f-b0eb-5731d9b617bf)
+<img src="https://imgur.com/XxHdogw.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/822c8faa-bf5d-45d5-bde1-3e6701075251)
 
 ---
 
