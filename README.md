@@ -24,7 +24,7 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
    - `no-access`
    - `accounting`
 
-![image](https://github.com/user-attachments/assets/70f4cb60-c509-4f8d-9788-3bc6078194ba)
+<img src="https://imgur.com/a6lTmOS.png" alt="lab 7"/>
 
 3. Set the following permissions for each folder:
    - **Folder:** `read-access`  
@@ -32,15 +32,15 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
      **Permission:** `Read`  
      *(Share the folder with these settings.)*
 
-![image](https://github.com/user-attachments/assets/4045f78d-54ea-44df-9bf4-52c29cd03c48)
+<img src="https://imgur.com/OpYfKyd.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/8152ebef-841b-464a-8a9b-5840b85e80a4)
+<img src="https://imgur.com/64VG5lg.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/d7727851-a695-49aa-9ad3-e1abca2923a7)
+<img src="https://imgur.com/XzEL4uO.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/c7a2b05e-415d-4a6e-be41-047d6d7e8885)
+<img src="https://imgur.com/flzuY9H.png" alt="lab 7"/>
 
-![image](https://github.com/user-attachments/assets/e12e2f0d-78e5-46e0-8d21-e7345620b973)
+<img src="https://imgur.com/r1Pik4C.png" alt="lab 7"/>
 
    - **Folder:** `write-access`  
      **Group:** `Domain Users`  
