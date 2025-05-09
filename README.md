@@ -99,20 +99,20 @@ In this lab, we will work with Network File Shares and Permissions on Microsoft 
 <img src="https://imgur.com/pbs7yYM.png" alt="lab 7"/>
 
 4. Test access as the normal user:
-   - On Client-1, while logged in as `<qaki.hof>` (or other user), try to access the `accounting` share via `\\dc-1`.  
+   - On Client-1, while logged in as `<boh.moc>` (or other user), try to access the `accounting` share via `\\dc-1`.  
      - **Expected Result:** Access to the folder should fail.
 
 <img src="https://imgur.com/AapVtsS.png" alt="lab 7"/>
 
-5. Assign `<qaki.hof>` (or other user) to the `ACCOUNTANTS` group:
-   - On DC-1, add `<qaki.hof>` (or other user) as a member of the `ACCOUNTANTS` security group.
+5. Assign `<boh.moc>` (or other user) to the `ACCOUNTANTS` group:
+   - On DC-1, add `<boh.moc>` (or other user) as a member of the `ACCOUNTANTS` security group.
    - **Sidenote:** You can add entire groups to other groups as well. If we wanted to give access to all of the domain users we would assign 'Domain Users' to the 'ACCOUNTANTS' group instead of qaki.hof. 
 
 <img src="https://imgur.com/oofmO3G" alt="lab 7"/>
 
 
 6. Re-test access as `<qaki.hof>`:
-   - **Log out of Client-1** and log back in as `<qaki.hof>`.
+   - **Log out of Client-1** and log back in as `<boh.moc>`.
    - Try to access the `accounting` share via `\\dc-1`.
      - **Expected Result:** Access to the folder should now succeed.
 <img src="https://imgur.com/dxrhBJi.png" alt="lab 7"/>
@@ -123,3 +123,5 @@ By completing this lab, you will have demonstrated:
 - Configuring file shares with varying permissions.
 - Testing access to file shares from different user accounts.
 - Managing Active Directory security groups and applying permissions effectively.
+
+Configuring network shares and file permissions is important to ensure that only authorized users can access or modify files, keeping data secure. It also helps prevent access issues, making it easier for help desk staff to support users and keep them productive. Proper setup supports security, efficiency, and compliance all of which are benefical to have in a help desk environment.
